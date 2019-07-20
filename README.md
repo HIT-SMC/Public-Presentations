@@ -7,3 +7,16 @@
 
 
 
+
+
+
+
+# Tutorials & Repositories
+* [Udacity nanodegree course on Deep Learning](https://github.com/udacity/deep-learning)
+* [Udacity nanodegree course on Deep Reinforcement Learning](https://github.com/udacity/deep-reinforcement-learning)
+* [Hands-on RL tutorials: 60 Days RL Challenge](https://github.com/andri27-ts/60_Days_RL_Challenge)
+* [Tensorflow official collection of TensorFlow high-level APIs: models](https://github.com/tensorflow/models)
+* [OpenAI hands on tutorials on RL: spinning up](https://github.com/openai/spinningup)
+* [OpenAI baseline implementations for RL algorithms](https://github.com/openai/baselines)
+
+
