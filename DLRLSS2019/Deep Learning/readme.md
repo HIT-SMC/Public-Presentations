@@ -8,5 +8,5 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
  * Tricks in training 
   * basics: empirical risj minimization, L1 and L2 regularization, loss function (classification/regression), cross-entropy, stochastic gradient descent, backpropagation, gradients of activation functions, automatic differentiation using graph
   * **Initialization**: <br>
-  
+  sample weights $W_i$
 
