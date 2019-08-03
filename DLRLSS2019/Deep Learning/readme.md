@@ -13,5 +13,5 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
   * **Others**: normalization of data, decaying learning rate, minibatch, momentum, <br>
   adaptive learning rates: Adagrad, RMSProp, Adam <br>
   momentum: $ \bar \nabla _\theta ^t = \nabla _\theta L\left( \theta  \right) + \beta \bar \nabla _\theta ^{t - 1} $  <br>
-  Adagrad: $ \lambda^t = \lambda^{t-1} + \left( \nabla_\theta L \left( _theta \right) \right)^2 $, $ \nabla_\theta^t = \frac{\nabla_\theta \left(L(\theta) \right)}{\sqrt{\lambda^t + \epsilon}} $
+
 
