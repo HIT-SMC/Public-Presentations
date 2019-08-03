@@ -15,7 +15,6 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
   momentum: $ \bar \nabla _\theta ^t = \nabla _\theta L\left( \theta  \right) + \beta \bar \nabla _\theta ^{t - 1} $   <br>
   Adagrad: \[{\gamma ^t} = {\gamma ^{t - 1}} + {\left( {{\nabla _\theta }L\left( \theta  \right)} \right)^{\rm{2}}}\], 
 \[\bar \nabla _\theta ^t = \frac{{{\nabla _\theta }L\left( \theta  \right)}}{{\sqrt {{\gamma ^t} + \varepsilon } }}\]
-  
-  $ \lambda^t = \lambda^{t-1} + \left( \nabla_\theta L \left( _theta \right) \right)^2 $, $ \nabla_\theta^t = \frac{\nabla_\theta \left(L(\theta) \right)}{\sqrt{\lambda^t + \epsilon}} $
+
 
 
