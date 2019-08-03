@@ -12,6 +12,6 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
   * **Where to stop**: trade-off between trainin and validation
   * **Others**: normalization of data, decaying learning rate, minibatch, momentum, <br>
   adaptive learning rates: Adagrad, RMSProp, Adam <br>
-  momentum: $ \bar \nabla _\theta ^t = \nabla _\theta L\left( \theta  \right) + \beta \bar \nabla _\theta ^{t - 1} $
-  Adagrad: 
+  momentum: $ \bar \nabla _\theta ^t = \nabla _\theta L\left( \theta  \right) + \beta \bar \nabla _\theta ^{t - 1} $  <br>
+  Adagrad: $ \lamda $
 
