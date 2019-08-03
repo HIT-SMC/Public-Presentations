@@ -14,7 +14,7 @@
 <p align="center">
 	<img src="http://upfrontanalytics.com/SITE/wp-content/uploads/2015/04/System-1-vs-System-2.jpg" alt="Sample"  width="250" height="200">
 	<p align="center">
-		<em>图片示例2</em>
+		<em> system 1 and system 2 </em>
 	</p>
 </p>
 
