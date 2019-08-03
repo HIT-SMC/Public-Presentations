@@ -12,14 +12,14 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
   * **Where to stop**: trade-off between trainin and validation
   * **Others**: normalization of data, decaying learning rate, minibatch, momentum, <br>
   adaptive learning rates: Adagrad, RMSProp, Adam <br>
-  momentum: $ \bar \nabla _\theta ^t = \nabla _\theta L\left( \theta  \right) + \beta \bar \nabla _\theta ^{t - 1} $   <br>
-  Adagrad -- learning rates scaled by the squared root of the cumulative sum of square gradients:
+  **momentum**: $ \bar \nabla _\theta ^t = \nabla _\theta L\left( \theta  \right) + \beta \bar \nabla _\theta ^{t - 1} $   <br>
+  **Adagrad** -- learning rates scaled by the squared root of the cumulative sum of square gradients:
   $ {\gamma ^t} = {\gamma ^{t - 1}} + {\left( {{\nabla _\theta }L\left( \theta  \right)} \right)^{\rm{2}}}$, 
   $\bar \nabla _\theta ^t = \frac{{{\nabla _\theta }L\left( \theta  \right)}}{{\sqrt {{\gamma ^t} + \varepsilon } }}$ <br>
-  RMSProp -- scaled by exponential moving average: 
+  **RMSProp** -- scaled by exponential moving average: 
   ${\gamma ^t} = \beta {\gamma ^{t - 1}} + \left( {1 - \phi } \right){\left( {{\nabla _\theta }L\left( \theta  \right)} \right)^{\rm{2}}}$
   $\bar \nabla _\theta ^t = \frac{{{\nabla _\theta }L\left( \theta  \right)}}{{\sqrt {{\gamma ^t} + \varepsilon } }}$ <br>
-  Adam--combines RMSProp with momentum
+  **Adam**--combines RMSProp with momentum
   * **Gradient checking** using finite difference approximation & **small set debugging**
 ### 1.3 Traing in Deep Learning
  * A DNN can represent certain functions more compactly e.g., Boolen functions
