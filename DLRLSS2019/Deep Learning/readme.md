@@ -7,5 +7,6 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
   * flow graph: nice propagation representation
  * Tricks in training 
   * basics: empirical risj minimization, L1 and L2 regularization, loss function (classification/regression), cross-entropy, stochastic gradient descent, backpropagation, gradients of activation functions, automatic differentiation using graph
-  * **Initialization**: sample $W_(i,j)^(k)$
+  * **Initialization**: <br>
+  
 
