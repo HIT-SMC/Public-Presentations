@@ -10,7 +10,7 @@
 * Theories not compatible with animal/human situation, real environment
 ### 1.3 Promising researches
 * Example: High-level factors is much easier to generalize --> Grounded language learning, jointly learning Natural Language and a World Model --> BabyAI platform (ICLR 2019)
-* Integrating system 1 and system 2, like multimodal ![Alt text](http://upfrontanalytics.com/SITE/wp-content/uploads/2015/04/System-1-vs-System-2.jpg width='100')
+* Integrating system 1 and system 2, like multimodal ![Alt text](C:/Users/wishi/Downloads/1.jpg)
 * Generative model in Latent space (high-level abstract space) --> unsupervised learning + self-supervised learning (denoising auto-encoders, BERT, Word2Vec, XLNet) --> Spatio-Temporal Deep Infomax(STDIM, ICLR2019 paper) --> generate on consciousness prior (2 levels of representation)
 * Attention mechanism! attention to learn waht to memorize from past, what to predict abouth future --> predict some given very a few (soarse factor graph)
 * [Represntation learning](http://www.iro.umontreal.ca/~lisa/pointeurs/TPAMISI-2012-04-0260-1.pdf)
