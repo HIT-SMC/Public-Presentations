@@ -7,6 +7,11 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
   * flow graph: nice propagation representation
  * Tricks in training 
   * basics: empirical risj minimization, L1 and L2 regularization, loss function (classification/regression), cross-entropy, stochastic gradient descent, backpropagation, gradients of activation functions, automatic differentiation using graph
-  * **Initialization**: <br>
-  sample weights $W_i$
+  * **Initialization**: uniformly sample weights $W_i$ from $U[-b,b]$ where $b = \frac{{\sqrt 6 }}{{\sqrt {{H_k} + {H_{k - 1}}} }}$
+  * **Model selection**: abouth hyperparameters, grid search and random search, validation set
+  * **Where to stop**: trade-off between trainin and validation
+  * **Others**: normalization of data, decaying learning rate, minibatch, momentum, <br>
+  adaptive learning rates: Adagrad, RMSProp, Adam <br>
+  momentum: $ \bar \nabla _\theta ^t = \nabla _\theta L\left( \theta  \right) + \beta \bar \nabla _\theta ^{t - 1} $
+  Adagrad: 
 
