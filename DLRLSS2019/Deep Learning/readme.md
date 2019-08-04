@@ -29,8 +29,8 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
  [unsupervised pretraining](http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf): overfits less with large capacity & underfits with small capacity
  [**Batch Normalization**](https://kopernio.com/viewer?doi=arXiv:1502.03167&route=6): both can use BN, BN attempts to normalize at the level of hidden layers besides the input level --> each unit's
  pre-activation is normalized; operates on each minibatch. <br>
- BN: mini-batch $B =$ {$x_{1,...,m}$},  ${y_i} = BN_{\gamma ,\beta }(x_i) = \gamma {\hat x}_i + \beta$
-
+ BN: mini-batch $B =$ {$x_{1,...,m}$},  ${y_i} = BN_{\gamma ,\beta }(x_i) = \gamma {\hat x}_i + \beta$, $ {\mu _{\cal B}} = \frac{1}{m}\sum\limits_{i = 1}^m {{x_i}}, {\sigma _{\cal B}} = \frac{1}{m}\sum\limits_{i = 1}^m {{{\left( {{x_i} - {\mu _{\cal B}}} \right)}^2}},
+{{\hat x}_i} = \frac{{x - {\mu _{\cal B}}}}{{\sqrt {\sigma _{\cal B}^2 + \varepsilon } }}$
 ### 1.4 Learning Problems
 * Supervised learning: classification, regression
 * Unsupervised learning: distribution estimation, dimensionality reduction
