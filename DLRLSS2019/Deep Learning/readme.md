@@ -88,7 +88,15 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
 * Image based 3D synthesis
 etc.
 ### Reading materials: [Standford CNN&CV course](http://cs231n.github.io/)
- 
+
+# 4. RNN by [Yoshua Bengio](https://mila.quebec/en/yoshua-bengio/)
+### 4.1 RNN
+* Sequential input/output, back-propagation through time (BPTT)
+* seq2vec, seq2seq, vec2seq, seq2seq of varitional length
+* Parameter sharing, $s_t=F_\theta(s_{t-1}, x_t)$, $s_t=G_t{x_t, x_{t-1},x_{t-2},...,x_2, x_1}$
+* Generative RNNs, conditional distribution $P(x_t|x_{t-1},x_{t-2},...,x_2,x_1)$
+* Mismatch in teacher forcing can cause 'Compounding error' --> [schedule sampling](http://papers.nips.cc/paper/5956-scheduled-sampling-for-sequence-prediction-with-recurrent-neural-networks.pdf) and [GAN]()
+* 
  
 
 
