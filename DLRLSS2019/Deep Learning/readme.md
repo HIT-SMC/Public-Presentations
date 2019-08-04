@@ -95,8 +95,25 @@ etc.
 * seq2vec, seq2seq, vec2seq, seq2seq of varitional length
 * Parameter sharing, $s_t=F_\theta(s_{t-1}, x_t)$, $s_t=G_t{x_t, x_{t-1},x_{t-2},...,x_2, x_1}$
 * Generative RNNs, conditional distribution $P(x_t|x_{t-1},x_{t-2},...,x_2,x_1)$
-* Mismatch in teacher forcing can cause 'Compounding error' --> [schedule sampling](http://papers.nips.cc/paper/5956-scheduled-sampling-for-sequence-prediction-with-recurrent-neural-networks.pdf) and [GAN]()
-* 
+* Mismatch in teacher forcing can cause 'Compounding error' --> [schedule sampling](http://papers.nips.cc/paper/5956-scheduled-sampling-for-sequence-prediction-with-recurrent-neural-networks.pdf) and [GAN](http://papers.nips.cc/paper/6099-professor-forcing-a-new-algorithm-for-training-recurrent-networks.pdf)
+* Enpowered RNN: deep RNN, skip connection for creating shorter path, bidirectional RNN, Recursive Nets(tree-structured), Multidimensional RNN, [Multiplicative Integration RNNs](https://arxiv.org/pdf/1606.06630.pdf)(same computational cost, more expressive), multiscale/hierarchical RNN 
+### 4.2 Problem: [Long-term dependencies with gradient descent is difficult](http://www.comp.hkbu.edu.hk/~markus/teaching/comp7650/tnn-94-gradient.pdf) --> [vanishing or exploding gradient](http://people.idsia.ch/~juergen/fundamentaldeeplearningproblem.html)
+$\frac{{\partial {C_t}}}{{\partial W}} = \sum\limits_{\tau  \le t} {\frac{{\partial {C_t}}}{{\partial {a_\tau }}}\frac{{\partial {a_\tau }}}{{\partial W}}}  = \sum\limits_{\tau  \le t} {\frac{{\partial {C_t}}}{{\partial {a_t}}}\frac{{\partial {a_t}}}{{\partial {a_\tau }}}\frac{{\partial {a_\tau }}}{{\partial W}}}$, where ${\frac{{\partial {a_t}}}{{\partial {a_\tau }}}}$ becomes exponentially smaller for longer time differences when radius<1 --> vanishing gradient
+* RNN tricks:[1](http://proceedings.mlr.press/v28/pascanu13.pdf) [2](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6639349)
+ * Gradients clipping -- avoid exploding gradients
+ * [Skip connections]() & leaky integration -- propagate further
+ * Multiple time scales/ hierarchical RNNs -- propagate further
+ * Momentum -- cheap 2nd order
+ * Initialization -- start in right ballpark avoids exploding and vanishing
+ * Sparse gradients -- symmetry breaking
+ * Gradient propagation regularizer -- gradient vanishing
+ * Gated self-loops -- LSTM & GRU, reduces vanishing gradient
+ * Non-parametric memory (with attention mechanism) -- gradients vanishing --> memory-augmented networks
+ * [Attention](https://mchromiak.github.io/articles/2017/Sep/12/Transformer-Attention-is-all-you-need/#.XUd1QehKguU): [Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf), [Neural Turing Machines](https://arxiv.org/pdf/1410.5401.pdf%20(http://Neural%20Turning%20Machines)%20), [Memory Networks](https://arxiv.org/pdf/1410.3916.pdf) , [self-attention](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) [sparse attentive backtracking](http://papers.nips.cc/paper/7991-sparse-attentive-backtracking-temporal-credit-assignment-through-reminding.pdf)
+ ### Abstract concepts 
+ * Content-based attention: [Consciousness Prior](https://arxiv.org/pdf/1709.08568.pdf)
+ 
+ 
  
 
 
