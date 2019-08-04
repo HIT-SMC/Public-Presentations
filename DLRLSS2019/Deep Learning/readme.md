@@ -58,13 +58,36 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
 * [Influence by first example](http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf)
 
 # 2. Convolutional Neural Networks by [Graham Taylor](https://www.gwtaylor.ca/)
+* $1\times1$ kernel, 
+* Stride and max pooling
 
 # 3. DL for Image by [Angel Chang](https://angelxuanchang.github.io/)
 ### 3.1 Standar vision tasks
-* Image classification; Semantic Segmentation, Object Detection, Instance Segmentation
 ![CV tasks](https://github.com/HIT-SMC/Public-Presentations/blob/master/DLRLSS2019/Deep%20Learning/images/image1.png)
+* Image classification;
+* Semantic Segmentation --> fully convolutional; downsample vs. upsample, convolution vs. transpose convolution (deconvolution)
+* Object Detection --> sliding window (too computational), selective search([R-CNN](https://kopernio.com/viewer?doi=10.1109/cvpr.2014.81&route=6) and [Fast R-CNN = R-CNN + feature level region proposal](https://kopernio.com/viewer?doi=10.1109/iccv.2015.169&route=6), [Faster R-CNN=Fast R-CNN + Region Proposal Network](https://kopernio.com/viewer?doi=10.1109/tpami.2016.2577031&route=6) R stands for region)
+* Instance Segmentation: [Mask R-CNN](https://kopernio.com/viewer?doi=10.1109/tpami.2018.2844175&route=6) = R-CNN + Mask Network
+
 ### Beyond pixels
+* Structured representation
+ * Structured representation of images: Scene Parse Tree (hierarchical description), Scene Graoh (relational description)=objects + relationships
+* Visual and Language: [captioning (CNN+RNN)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7534740), [Visual Question Answering (VQA)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7534740), [reasoning](https://papers.nips.cc/paper/7381-neural-symbolic-vqa-disentangling-reasoning-from-vision-and-language-understanding.pdf)
+* Extending to 3D
+![Image2](https://github.com/HIT-SMC/Public-Presentations/blob/master/DLRLSS2019/Deep%20Learning/images/image%202.jpg)
+ * [Classification, Semantic Segmentation, Object Detection, Instance Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8099744)
+ * Representation in 3D: surface (triangle mesh, hard to feed in), [multi view](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7410471),  [volumetric](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8100184), [pointcloud](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8099499)
+ * PointNet, PointNet++, PointCNN, PCNN
+ 
 ### Vision as Inverse Graphics
+* Machine perception of 3D solids 3D to 2D models
+* Image 2 3D scence representation
+* 3D object detection: R-CNN in 3D
+* 3D shape prediction
+* 2D floorplan to 3D model
+* Image based 3D synthesis
+etc.
+### Reading materials: [Standford CNN&CV course](http://cs231n.github.io/)
  
  
 
