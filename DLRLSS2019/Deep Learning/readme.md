@@ -119,7 +119,18 @@ $\frac{{\partial {C_t}}}{{\partial W}} = \sum\limits_{\tau  \le t} {\frac{{\part
  [DP Kingma, JL Ba. 2015. Adam: A Method For Stochastic Optimization](https://arxiv.org/pdf/1412.6980.pdf) Jimmy is one of the two authors of Adam optimization method.
  ### 6.1 Random search vs. Gradient descent
  * Neural Networks <br>
- Data $(x,y)$, neural network $\hat y(x, W)$, Averaged loss: $\bar L = \frac{1}{N} \sum_{i=1}^{N}L(x^{(i)},y^{(i)},W)=\frac{1}{N}\sum_{i=1}^{N}L_i(W)$
+ Data $(x,y)$, neural network $\hat y(x, W)$, Averaged loss: $ L = \frac{1}{N} \sum_{i=1}^{N}L(x^{(i)},y^{(i)},W)=\frac{1}{N}\sum_{i=1}^{N}L_i(W)$
+ * Learning is difficult
+  * Neural Networks is non-convex --> many local optimums
+  * Neural Networks is not smooth --> Lipschitz continuous
+  * Millions of trainable weights
+ * Random search
+  * perturing random vector $\Delta W \sim N(0, \mu^2I)$, evaluate the perturbed averaged loss over training examples, add the perturbation weighted by the perturbed loss to the current weights, and repeat.
+  * Why work? Random search approximate finite difference with stochastic samples, each perturbation gives a directional gradient. --> inefficient however.
+ * Gradient descent & back-propagation
+  * Random search, needs to do forward propagation then backward gradient; it would be more efficient to directly query gradient information --> gradient descent $\Delta W = -\nabla L$
+  * $ min L(W+\Delta W) $ <br>
+  $s.t. ||\Delta W||^2=\epsilon$
   
  
  ### 6.2 Better search directions
