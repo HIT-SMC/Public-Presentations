@@ -113,7 +113,17 @@ $\frac{{\partial {C_t}}}{{\partial W}} = \sum\limits_{\tau  \le t} {\frac{{\part
  ### 4.3 Abstract concepts 
  * Content-based attention: [Consciousness Prior](https://arxiv.org/pdf/1709.08568.pdf)
  
+ # 5. Video by [Greg Mori](https://www.cs.sfu.ca/~mori/#teaching)
  
+ # 6. Optimization by [Jimmy Ba](https://jimmylba.github.io/)
+ [DP Kingma, JL Ba. 2015. Adam: A Method For Stochastic Optimization](https://arxiv.org/pdf/1412.6980.pdf) Jimmy is one of the two authors of Adam optimization method.
+ * Random search vs. Gradient descent
+  * Neural Networks <br>
+  Data $(x,y)$, neural network $\hat y(x, W)$, Averaged loss: $\bar L = \frac{1}{N} \sim_{i=1}^{N}L(x^{(i)},y^{(i)},W)=\frac{1}{N}\sim_{i=1}^{N}L_i(W)$
+  
  
+ * Better search directions
+ 
+ * "White-box" optimization methods to improve computation efficiency
 
 
