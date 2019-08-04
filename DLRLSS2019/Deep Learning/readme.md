@@ -110,7 +110,7 @@ $\frac{{\partial {C_t}}}{{\partial W}} = \sum\limits_{\tau  \le t} {\frac{{\part
  * Gated self-loops -- LSTM & GRU, reduces vanishing gradient
  * Non-parametric memory (with attention mechanism) -- gradients vanishing --> memory-augmented networks
  * [Attention](https://mchromiak.github.io/articles/2017/Sep/12/Transformer-Attention-is-all-you-need/#.XUd1QehKguU): [Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf), [Neural Turing Machines](https://arxiv.org/pdf/1410.5401.pdf%20(http://Neural%20Turning%20Machines)%20), [Memory Networks](https://arxiv.org/pdf/1410.3916.pdf) , [self-attention](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) [sparse attentive backtracking](http://papers.nips.cc/paper/7991-sparse-attentive-backtracking-temporal-credit-assignment-through-reminding.pdf)
- ### Abstract concepts 
+ ### 4.3 Abstract concepts 
  * Content-based attention: [Consciousness Prior](https://arxiv.org/pdf/1709.08568.pdf)
  
  
