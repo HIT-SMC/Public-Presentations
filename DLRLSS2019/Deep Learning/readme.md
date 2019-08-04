@@ -57,7 +57,14 @@ However, it doesn't mean there is a learning algorithm that can find the necessa
 * [Influence by initialization](http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf)
 * [Influence by first example](http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf)
 
+# 2. Convolutional Neural Networks by [Graham Taylor](https://www.gwtaylor.ca/)
 
+# 3. DL for Image by [Angel Chang](https://angelxuanchang.github.io/)
+### 3.1 Standar vision tasks
+* Image classification; Semantic Segmentation, Object Detection, Instance Segmentation
+![CV tasks](https://github.com/HIT-SMC/Public-Presentations/blob/master/DLRLSS2019/Deep%20Learning/images/image1.png)
+### Beyond pixels
+### Vision as Inverse Graphics
  
  
 
