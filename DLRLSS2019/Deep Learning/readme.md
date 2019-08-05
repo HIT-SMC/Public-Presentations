@@ -128,13 +128,19 @@ $\frac{{\partial {C_t}}}{{\partial W}} = \sum\limits_{\tau  \le t} {\frac{{\part
   * perturing random vector $\Delta W \sim N(0, \mu^2I)$, evaluate the perturbed averaged loss over training examples, add the perturbation weighted by the perturbed loss to the current weights, and repeat.
   * Why work? Random search approximate finite difference with stochastic samples, each perturbation gives a directional gradient. --> inefficient however.
  * Gradient descent & back-propagation
+  * $min L(W+\Delta W)$ <br>
+  $s.t. ||\DeltaW||^2=\epsilon$
   * Random search, needs to do forward propagation then backward gradient; it would be more efficient to directly query gradient information --> gradient descent $\Delta W = -\nabla L$
-  * $ min L(W+\Delta W) $ <br>
-  $s.t. ||\Delta W||^2=\epsilon$
+  * Gradient descent can be inefficient under ill-conditioned curvature --> smooth gradient with moving average (Momentum)
+ * Stochastic gradient descent --> improve efficiency (computing average loss of in minibatch)
+ * [Natural gradient descent](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.452.7280&rep=rep1&type=pdf)
+  Add constraint in the Probability space using KL divergence: $s.t. D(P_W||P_{W+\Delta W})=\epsilon$
+ * Fisher Information Matrix
+  
   
  
  ### 6.2 Better search directions
- 
+ * Second order algorithms
  ### 6.3 "White-box" optimization methods to improve computation efficiency
 
 
