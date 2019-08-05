@@ -129,7 +129,7 @@ $\frac{{\partial {C_t}}}{{\partial W}} = \sum\limits_{\tau  \le t} {\frac{{\part
   * Why work? Random search approximate finite difference with stochastic samples, each perturbation gives a directional gradient. --> inefficient however.
  * Gradient descent & back-propagation
   * $min L(W+\Delta W)$ <br>
-  $s.t. ||\DeltaW||^2=\epsilon$
+  $ s.t. ||\Delta W||^2=\epsilon$
   * Random search, needs to do forward propagation then backward gradient; it would be more efficient to directly query gradient information --> gradient descent $\Delta W = -\nabla L$
   * Gradient descent can be inefficient under ill-conditioned curvature --> smooth gradient with moving average (Momentum)
  * Stochastic gradient descent --> improve efficiency (computing average loss of in minibatch)
@@ -143,4 +143,8 @@ $\frac{{\partial {C_t}}}{{\partial W}} = \sum\limits_{\tau  \le t} {\frac{{\part
  * Second order algorithms
  ### 6.3 "White-box" optimization methods to improve computation efficiency
 
+# 7. NLP by [Alna Fyshe](https://www.cifar.ca/bio/alona-fyshe)
+# 8. Bayesian DL by [Roger Grosse](http://www.cs.toronto.edu/~rgrosse/)
+# 9. Unsupervised Learning with [Jacobsen](https://jhjacobsen.github.io/)
+# 10. Generative Model by [Ke Li](https://people.eecs.berkeley.edu/~ke.li/)
 
