@@ -50,7 +50,7 @@
  The world is much more complex than any mind that tries to understand it (therefore, a prior distribution on the world counld never be reasonable)<br>
  Mind is computational, and computation is increasing exponentially<br>
  Human input doesn't scale, the only scable methods are search and learning<br>
-* Some others:
+* Some others:<br>
  Experience is the data of AI<br>
  Approximate the solution, not the problem<br>
  Take the agent's point of view<br>
