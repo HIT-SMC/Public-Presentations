@@ -26,6 +26,53 @@
 * Breaking knowledge into recomposable pieces:reusable pirces
 * Causality, correct causal structure leads to faster adaption --> turn nonstationarities in distribution into factorize knowledge to maximize fast transfer [paper](https://kopernio.com/viewer?doi=arXiv:1901.10912&route=6)
 ### 1.4 AI and society
+...
 
+# AI thoughts and RL frontiers by Richard Sutton
+### 2.1 About research
+Some notes:
+* Don't be impressed by what you don't understand
+* Don't try to impress others by what they don't understand
+* You should be brave and ambitious but also humble and transparent
+* Humble before the great task (e.g., understanding the mind。
+* **How to train yourself to think carefully and productively?**  to write is to think (discuss with yourself)
+* When get stuck, persist and try:
+ * Define your terms
+ * Go multiple (i.e., what are some of the conceivable answers?)
+ * Go meta (i.e., that would an answer look like? what properties would it have?)
+ * Retreat (retreat to a clearer question that you can make progress on, then come back)
+* The most important insight you will ever contribute is 1. propably something that you already know; 2. probably something that is obvious to you. <br> Some examples: <br>
+ * No animal does supervised learning
+ * No mind generates images or videos
+ * Neural networks are not in any meaningful sense "neural"
+ * People are machines
+ * The purpose of life is pleasure
+ * The world is much more complex than any mind that tries to understand it (therefore, a prior distribution on the world counld never be reasonable)
+ * Mind is computational, and computation is increasing exponentially
+ * Human input doesn't scale, the only scable methods are search and learning
+* Some others:
+ * Experience is the data of AI
+ * Approximate the solution, not the problem
+ * Take the agent's point of view
+ * Set measurable goals for the subparts of an agent
+ * Work by orthogonal dimensions, work issue by issue
+ * Work on ideas, not software
+* Exercice 1. try to define **What is Intelligence**.
+* Exercise 2. try to figure out the exceptions of the **Predictive knowledge hypothesis**.
 
-# AI thoughts by Richard Sutton
+### 2.2 Tricks for doing RL research
+* Know where the frontier is
+![Frontiers](https://github.com/HIT-SMC/Public-Presentations/blob/master/DLRLSS2019/General%20thoughts%20about%20AI/trick-1.jpg)
+* Extend the frontier by several dimensions and comple the square.
+![Extend the frontiers](https://github.com/HIT-SMC/Public-Presentations/blob/master/DLRLSS2019/General%20thoughts%20about%20AI/trick-2.jpg)
+### 2.3 RL researches that may be interesting
+* A possible new view of the ML landscape: prediction learning, control learning, representation learning, and integrated agent architectures
+* Core RL research learns value function and policies (value-based/ policy-based RL), next we need to learn (State features, skills, subproblems, and model of the world in Part II of [RL: and introduction](http://incompleteideas.net/book/RLbook2018trimmed.pdf))
+* Animals and babies play to pursue subproblems <br> Three open questions/
+ * What should the subproblems be?
+ * Where do the subproblems come from?
+ * How do the subproblems help on the main problem?
+* Permanent and transient memories
+* Big world vs small mind, apparent non-stationary --> changing approximate value function
+### 2.4 AI & Society
+AI will inevitably lead to new beings and new ways of beings that are much more powerful than our current selves.
