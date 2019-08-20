@@ -3,7 +3,7 @@
 
 * [Tea Time Talks slides from University of Alberta (2019)](https://amiithinks.github.io/tea-time-talks/2019-talk-pdfs/)
 * [David Abel's conference notes on ICML, ICLR, and AAAI](https://david-abel.github.io/notes.html)
-* [Deep Learning and Reinforcement Learning Summer School, DLRLSS2019 held in UofA](https://github.com/HIT-SMC/Public-Presentations/tree/master/DLRLSS2019)
+* [Deep Learning and Reinforcement Learning Summer School, DLRLSS2019 held in Edmonton](https://github.com/HIT-SMC/Public-Presentations/tree/master/DLRLSS2019)
 
 
 
