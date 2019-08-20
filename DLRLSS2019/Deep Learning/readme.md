@@ -1,3 +1,4 @@
+Some slides are uploaded on [Google drive](https://drive.google.com/drive/u/1/folders/1VK2SUq8VSILzSPr0O2e4_8P-1ycKXbRr), more slides will be opened soon.
 # 1. General introduction to neural networks by [Hugo Larochelle](http://www.dmi.usherb.ca/~larocheh/index_en.html)
 ### 1.1 Artifical Neurons
 * **Universal Approximation Theorem**: "a single hidden layer neural network with a linear output unit can approximate any continous function arbitrarily well, given enough hidden units".  <br>
