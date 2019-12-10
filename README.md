@@ -19,5 +19,6 @@
 * [Tensorflow official collection of TensorFlow high-level APIs: models](https://github.com/tensorflow/models)
 * [OpenAI hands on tutorials on RL: spinning up](https://github.com/openai/spinningup)
 * [OpenAI baseline implementations for RL algorithms](https://github.com/openai/baselines)
+* [Papers with code provides state-of-art implementations of classic papers](https://paperswithcode.com/)
 
 
